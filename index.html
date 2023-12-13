@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/movil.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- ICONOS -->
+    <script
+      src="https://kit.fontawesome.com/2ee0245f3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ANIMATE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Fancybox -->
+    <script src="librerias/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link
+      rel="stylesheet"
+      href="librerias/fancybox/jquery.fancybox-1.3.4.css"
+      type="text/css"
+      media="screen"
+    />
+    <!-- SLIDERESPOSIVE -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="librerias/resposiveslides/responsiveslides.min.js"></script>
+    <!-- Enlace a animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Enlace a wow.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="librerias/animate/wow.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="librerias/libreria_carrousel_js/carrousel.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="librerias/lightbox2-2.11.4/lightbox2-2.11.4/src/css/lightbox.css">
+    <title>Proyecto 4</title>
+  </head>
+  <body>
+    <div class="todo">
+      <div>
+        <section class="arribaheader">
+          <div class="datosizq">
+            <p>
+              <i class="fa-solid fa-house-chimney"></i>Nset Floor New World.
+            </p>
+            <a href=""><i class="fa-solid fa-phone"></i>999999999</a>
+            <a href=""><i class="fa-solid fa-envelope"></i>info@example.com</a>
+          </div>
+          <div class="redesder">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </section>
+      </div>
+      <header>
+        <div class="contenedor_navbar">
+          <nav>
+            <div class="contenedor_arriba_var">
+              <img src="imagenes/logo-1.png" alt="" />
+              <div class="menu" id="menuIcon">
+                <i class="fas fa-bars fa"></i>
+              </div>
+            </div>
+            <ul id="menu" class="navegacion">
+              <a href="#">Home</a>
+              <a href="#llamar2">About</a>
+              <a href="#llamaour">Service</a>
+              <a href="#llamaproject">Projects</a>
+              <a href="#llamaquestion">Explorer</a>
+              <a href="#llamacontact">Contact</a>
+              <a href="#" class="btn-basic">Get In A Touch</a>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <hr class="linea-verde" />
+      <section class="contenedor_fotos2">
+        <div class="ullides" id="ullides">
+          <li>
+              <img src="imagenes/slider1.jpg" alt="slide" />
+          </li>
+          <li>
+              <img src="imagenes/call-to.jpg" alt="slide" />
+          </li>
+          <li>
+              <img src="imagenes/slider1.jpg" alt="slide" />
+          </li>
+        </div>
+      <button class="arrow left" onclick="prevSlide()">&#8249;</button>
+<button class="arrow right" onclick="nextSlide()">&#8250;</button>
+        <div class="textoslideclass wow zoomIn">
+          <p>Work with a Dedicated App Company</p>
+          <h1>
+            Find Better
+            <p class="verde">Software</p>
+          </h1>
+          <h1>Sercice Company</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+            consequuntur.
+          </p>
+          <div>
+            <button class="btn-basic" id="btn" onclick="mostrarModal()">Contact Us</button>
+          </div>
+        </div>
+      </section>
+      <div class="tres">
+        <section class="seccionservicio">
+          <div class="cajas">
+            <article class="caja wow zoomIn">
+              <div class="orden">
+                <div class="circulo">
+                  <i class="fa-solid fa-laptop"></i>
+                </div>
+                <h1>Punctual Of Delivery</h1>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                voluptatibus tempora voluptatem, exercitationem alias totam
+              </p>
+            </article>
+
+            <article class="caja wow zoomIn">
+              <div class="orden">
+                <div class="circulo">
+                  <i class="fa-solid fa-laptop"></i>
+                </div>
+                <h1>Product This Control</h1>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                voluptatibus tempora voluptatem, exercitationem alias totam
+              </p>
+            </article>
+
+            <article class="caja wow zoomIn">
+              <div class="orden">
+                <div class="circulo">
+                  <i class="fa-solid fa-laptop"></i>
+                </div>
+                <h1>Member Of Support</h1>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                voluptatibus tempora voluptatem, exercitationem alias totam
+              </p>
+            </article>
+          </div>
+        </section>
+      </div>
+      <!-- Botón Ir Arriba -->
+      <button id="goToTopBtn" onclick="goToTop()">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+      <div id="llamar2"><br></div>
+      <section class="about">
+        <div class="imagenizq">
+          <picture><img src="imagenes/about2.jpg" alt="" /> </picture>
+        </div>
+        <div class="txtder ">
+          <h1>We Have Over 25 Years Of Experience IT Business</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo iusto
+            obcaecati error odio eos! Dicta, quasi, quisquam odit soluta
+            similique laborum mollitia expedita voluptatem iure neque, delectus
+            nisi inventore distinctio. Nihil ipsam, qui temporibus illum
+            consequuntur dolores mollitia esse quo, recusandae laborum non.
+            Sequi id laudantium at eos porro mollitia?
+          </p>
+          <div>
+            <a class="btn-basic" id="btn" href="">Contact Us</a>
+          </div>
+        </div>
+      </section>
+      <div id="llamaour"><br>
+      </div>
+      <h1 class="centro">Our Services</h1>
+      <p class="centro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        maxime amet repellat? Quae id aut ex neque consectetur vel aperiam?
+      </p>
+      <section class="contenedor_fotos">
+        <figure class="zoom-figure">
+          <img src="imagenes/p1.jpg" alt="" />
+          <div class="filtro">
+            <h2>Team</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </figure>
+        <figure class="zoom-figure">
+          <img src="imagenes/p2.jpg" alt="" />
+          <div class="filtro">
+            <h2>Team</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </figure>
+        <figure class="zoom-figure">
+          <img src="imagenes/p5.jpg" alt="" />
+          <div class="filtro">
+            <h2>Team</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </figure>
+      </section>
+      <div id="llamaproject"><br></div>
+      <h1 class="centro">PROJECTS</h1>
+      <p class="centro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        maxime amet repellat? Quae id aut ex neque consectetur vel aperiam?
+      </p>
+      <section class="about">
+        <div class="txtder wow zoomIn">
+          <h1>We Have Over 25 Years Of Experience IT Business</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo iusto
+            obcaecati error odio eos! Dicta, quasi, quisquam odit soluta
+            similique laborum mollitia expedita voluptatem iure neque, delectus
+            nisi inventore distinctio. Nihil ipsam, qui temporibus illum
+            consequuntur dolores mollitia esse quo, recusandae laborum non.
+            Sequi id laudantium at eos porro mollitia?
+          </p>
+          <div>
+            <a class="btn-basic" id="btn" href="">Contact Us</a>
+          </div>
+        </div>
+        <div class="imagenizq">
+          <div class="fancy">
+            <h2>PROJECTS</h2>
+            <div class="gallery">
+              <!-- Imágenes de la galería -->
+              <a
+                href="imagenes/t1.jpg"
+                data-fancybox="gallery"
+                data-caption="Descripción de la imagen 1"
+              >
+                <img src="imagenes/t1.jpg" alt="Imagen 1" />
+              </a>
+    
+              <a
+                href="imagenes/t2.jpg"
+                data-fancybox="gallery"
+                data-caption="Descripción de la imagen 2"
+              >
+                <img src="imagenes/t2.jpg" alt="Imagen 2" />
+              </a>
+    
+              <a
+                href="imagenes/t3.jpg"
+                data-fancybox="gallery"
+                data-caption="Descripción de la imagen 3"
+              >
+                <img src="imagenes/t3.jpg" alt="Imagen 3" />
+              </a>
+              <a
+                href="imagenes/p1.jpg"
+                data-fancybox="gallery"
+                data-caption="Descripción de la imagen 1"
+              >
+                <img src="imagenes/p1.jpg" alt="Imagen 1" />
+              </a>
+    
+              <a
+                href="imagenes/p2.jpg"
+                data-fancybox="gallery"
+                data-caption="Descripción de la imagen 2"
+              >
+                <img src="imagenes/p2.jpg" alt="Imagen 2" />
+              </a>
+    
+              <a
+                href="imagenes/p5.jpg"
+                data-fancybox="gallery"
+                data-caption="Descripción de la imagen 3"
+              >
+                <img src="imagenes/p5.jpg" alt="Imagen 3" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fotofija">
+        <div class="overlay">
+          <div class="contenidofotofija wow zoomIn">
+            <h3>GET STARTED TODAY?</h2>
+            <h1>Are You Ready To Working With Us?</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo iusto
+              obcaecati error odio eos! Dicta, quasi, quisquam odit soluta
+              similique laborum mollitia expedita voluptatem iure neque, delectus
+              nisi inventore distinctio. Nihil ipsam, qui temporibus illum
+              consequuntur dolores mollitia esse quo, recusandae laborum non.
+              Sequi id laudantium at eos porro mollitia?
+            </p>
+            <div>
+              <a class="btn-basic" id="btn" href="">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <h1 class="centro">OUR TEAM</h1>
+      <p class="verde centro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, nostrum.
+      </p>
+      <section class="user-cards ancho">
+        <article>
+          <figure>
+            <img src="imagenes/t1.jpg" alt="" />
+            <div class="redes-s-2">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </figure>
+          <div class="user-card-text">
+            <h3>Fulatina de tal</h3>
+            <p>Software Developer</p>
+          </div>
+        </article>
+  
+        <article>
+          <figure>
+            <img src="imagenes/t2.jpg" alt="" />
+            <div class="redes-s-2">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </figure>
+          <div class="user-card-text">
+            <h3>Fulatina de tal</h3>
+            <p>Software Developer</p>
+          </div>
+        </article>
+  
+        <article>
+          <figure>
+            <img src="imagenes/t3.jpg" alt="" />
+            <div class="redes-s-2 wow zoomIn">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </figure>
+          <div class="user-card-text">
+            <h3>Fulatina de tal</h3>
+            <p>Software Developer</p>
+          </div>
+        </article>
+  
+      </section>
+      <div id="llamaquestion"><br></div>
+      <h1 class="centro">QUESTIONS</h1>
+      <p class="centro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        maxime amet repellat? Quae id aut ex neque consectetur vel aperiam?
+      </p><div class="llamanav" id="llamaabout"> <br></div>
+      <section class="about">
+        <div class="imagenizq">
+          <picture><img src="imagenes/about3.jpg" alt="" /> </picture>
+        </div>
+        <div class="txtder wow zoomIn">
+          <h1>We Have Over 25 Years Of Experience IT Business</h1>
+          <section class="part mid">
+            <div class="acor" id="tit1">
+              <a href="#"
+                ><i class="fa-solid fa-square-plus" id="icon1"></i
+              ></a>
+              <p class="question" id="question1"> High Quality Data Security </p>
+            </div>
+            <div class="info" id="inf1">
+              <article>
+                <div class="txtinfo">
+                  <p>Anyone who loves or pursues or desires to obtain pain of itself, because it is pain timelines for the digital consulting.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="part mid">
+            <div class="acor" id="tit2">
+              <a href="#"
+                ><i class="fa-solid fa-square-plus" id="icon1"></i
+              ></a>
+              <p class="question" id="question1"> How investing in dependend incer </p>
+            </div>
+            <div class="info" id="inf2">
+              <article>
+                <div class="txtinfo">
+                  <p>Anyone who loves or pursues or desires to obtain pain of itself, because it is pain timelines for the digital consulting.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="part mid">
+            <div class="acor" id="tit3">
+              <a href="#"
+                ><i class="fa-solid fa-square-plus" id="icon1"></i
+              ></a>
+              <p class="question" id="question1"> Asing to Business Security </p>
+            </div>
+            <div class="info" id="inf3">
+              <article>
+                <div class="txtinfo">
+                  <p>Anyone who loves or pursues or desires to obtain pain of itself, because it is pain timelines for the digital consulting.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="part mid">
+            <div class="acor" id="tit4">
+              <a href="#"
+                ><i class="fa-solid fa-square-plus" id="icon1"></i
+              ></a>
+              <p class="question" id="question1"> Element or Page Builder Used </p>
+            </div>
+            <div class="info" id="inf4">
+              <article>
+                <div class="txtinfo">
+                  <p>Anyone who loves or pursues or desires to obtain pain of itself, because it is pain timelines for the digital consulting.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+      <div class="llamanav" id="llamacontact"> <br></div>
+      <h1 class="centro" id="">CONTACTANOS</h1>
+      <p class="verde centro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, nostrum.
+      </p>
+        <section class="formulario">
+          <form id="myForm" action="#" method="post" onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="numero">Número:</label>
+            <input type="tel" id="numero" name="numero" pattern="[0-9]+" title="Ingresa un número válido" required>
+    
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+    
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+      
+              <button class="btn-basic"type="submit">Enviar</button>
+          </form>
+        </section>
+            <div id="myModal" class="modal">
+              
+              <div class="modal-content">
+                  <p>Los datos se enviaron correctamente.</p>
+                  <figure><img src="imagenes/logo-1.png" alt=""></figure>
+                  <p>Te responderemos a la brevedad</p>
+                  <div class="btn-close"><span class="close" onclick="cerrarModal()">&times;</span></div>
+              </div>
+          </div>
+          <h1 class="centro">Explora Nuestro Contenido en Video</h1>
+      <p class="verde centro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, nostrum.
+      </p>
+          <section class="video">
+            <video controls>
+                <source src="video/software.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+          </section>
+          <h1 class="centro">Imagenes relacionadas</h1>
+      <p class="verde centro">Haz clic en la imagen para abrir el Lightbox:</p>
+      <section>
+        <div class="lightbox-section">
+          <div class="lightbox-trigger" data-lightbox="image">
+            <div class="lightbox-trigger" data-lightbox="image-set-1">
+              <a href="imagenes/about2.jpg" data-lightbox="image-set-1" data-title="Imagen 1">
+                  <img class="thumbnail" src="imagenes/p1.jpg" alt="Miniatura 1">
+              </a>
+              <a href="imagenes/about3.jpg" data-lightbox="image-set-1" data-title="Imagen 2"></a>
+              <a href="imagenes/call-to.jpg" data-lightbox="image-set-1" data-title="Imagen 3"></a>
+          </div>
+        </div>
+      </div>
+      </section>
+      <footer>
+        <figure><img src="imagenes/logo-1.png" alt="" /></figure>
+        <p style="color: white">2017 All rights reserved | Privacy Policy</p>
+        <br />
+        <div class="redes-s-22">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </footer>
+    </div>
+    <!-- <script>
+      const IMAGE_WIDTH = 500;
+      const DELAY = 3000;
+      const $prev = document.querySelector('.prev');
+      const $next = document.querySelector('.next');
+      const $imageContainer = document.querySelector('.ullides');
+      const $images = document.querySelectorAll('img');
+      let currentImage = 1;
+      let timeout;
+      fuction.updateImg(){
+        if(currentImage > $images.length){
+          currentImage = 1;
+        }else if(currentImage < 1){
+          currentImage = $images.length
+        }
+
+        $imageContainer.style.transform = 'translateX(-$
+        {(currentImage - 1) * IMAGE_WIDTH}px)';
+      }
+    </script> -->
+    <script>
+      var currentSlide = 0;
+      var slides = document.querySelectorAll('.ullides li');
+  
+      function showSlide(index) {
+          // Asegúrate de ocultar las imágenes de manera suave
+          slides.forEach(function (slide) {
+              slide.style.opacity = 0;
+              slide.style.display = 'none';
+          });
+  
+          slides[index].style.display = 'block';
+          // Asegúrate de mostrar la imagen de manera suave
+          setTimeout(function () {
+              slides[index].style.opacity = 1;
+          }, 10);
+      }
+  
+      function nextSlide() {
+          currentSlide = (currentSlide + 1) % slides.length;
+          showSlide(currentSlide);
+      }
+  
+      function prevSlide() {
+          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+          showSlide(currentSlide);
+      }
+  
+      // Mostrar la primera imagen al cargar la página
+      showSlide(currentSlide);
+  </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var menuIcon = document.getElementById('menuIcon');
+        var menu = document.getElementById('menu');
+    
+        // Agrega un evento de clic al icono del menú
+        menuIcon.addEventListener('click', function () {
+          // Alterna la visibilidad del menú
+          menu.style.display = menu.style.display === 'none' ? 'flex' : 'none';
+        });
+    
+        // Oculta el menú al hacer clic en un enlace
+        var menuLinks = document.querySelectorAll('.navegacion a');
+        menuLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            menu.style.display = 'none';
+          });
+        });
+    
+        // Cierra el menú si se hace clic fuera de él
+        window.addEventListener('click', function (event) {
+          if (!event.target.matches('#menuIcon') && !event.target.matches('.navegacion a')) {
+            menu.style.display = 'none';
+          }
+        });
+    
+        // Ajusta la visibilidad del menú al cambiar el tamaño de la ventana
+        window.addEventListener('resize', function () {
+          if (window.innerWidth > 430) {
+            menu.style.display = 'flex';
+          } else {
+            menu.style.display = 'none';
+          }
+        });
+      });
+    </script>
+    <script>
+      function validarFormulario() {
+          // Validaciones aquí...
+  
+          // Si todas las validaciones pasan, mostrar el modal
+          mostrarModal();
+  
+          return false; // Evitar que el formulario se envíe realmente
+      }
+  
+      function mostrarModal() {
+          var modal = document.getElementById('myModal');
+          modal.style.display = 'block';
+      }
+  
+      function cerrarModal() {
+          var modal = document.getElementById('myModal');
+          modal.style.display = 'none';
+      }
+  
+      // Cerrar modal si el usuario hace clic fuera de él
+      window.onclick = function(event) {
+          var modal = document.getElementById('myModal');
+          if (event.target == modal) {
+              modal.style.display = 'none';
+          }
+      };
+  </script>
+    <script>
+      $(document).ready(function () {
+        // Agrega un evento de clic al icono de menú
+        $("#iconomenu").click(function () {
+          // Alternar la clase 'show' en la lista de navegación
+          $(".navegacion").toggleClass("show");
+        });
+      });
+    </script>
+    <script>
+      $(function () {
+        $(".rslides").responsiveSlides();
+      });
+    </script>
+    <script>
+      // Inicializa el slider con Slick
+      $(document).ready(function(){
+          $('.ullides').slick({
+              // Configuración opcional, puedes ajustar según tus necesidades
+              dots: true,
+              arrows: true,
+              infinite: true,
+              speed: 500,
+              slidesToShow: 1,
+              slidesToScroll: 1
+          });
+      });
+  </script>
+    <script src="librerias/animate/wow.min.js"></script>
+    <script>
+      // Inicializa la biblioteca wow.js
+      new WOW().init();
+    </script>
+    <script>
+      // Inicializa FancyBox
+      $(document).ready(function () {
+        $(".gallery a").fancybox();
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#tit1").click(function () {
+          $("#inf1").slideToggle();
+          $("#icon1").toggleClass("fa-square-plus fa-square-minus");
+          $("#question1").toggleClass("active2"); // Cambia el color del texto
+        });
+
+        $("#tit2").click(function () {
+          $("#inf2").slideToggle();
+          $("#icon2").toggleClass("fa-square-plus fa-square-minus");
+          $("#question2").toggleClass("active2"); // Cambia el color del texto
+        });
+
+        $("#tit3").click(function () {
+          $("#inf3").slideToggle();
+          $("#icon3").toggleClass("fa-square-plus fa-square-minus"); // Cambia el ícono
+          $("#question3").toggleClass("active2"); // Cambia el color del texto
+        });
+        $("#tit4").click(function () {
+          $("#inf4").slideToggle();
+          $("#icon4").toggleClass("fa-square-plus fa-square-minus"); // Cambia el ícono
+          $("#question4").toggleClass("active2"); // Cambia el color del texto
+        });
+      });
+    </script>
+    <script>
+      // Muestra u oculta el botón según la posición de desplazamiento
+      window.onscroll = function () {
+        showGoToTopButton();
+      };
+
+      function showGoToTopButton() {
+        var button = document.getElementById("goToTopBtn");
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          button.style.display = "block";
+        } else {
+          button.style.display = "none";
+        }
+      }
+
+      // Desplaza la página hacia arriba
+      function goToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <script>
+      var fondomodal = document.getElementById("modal");
+      var btn = document.getElementById("btn");
+      var cerrar = document.getElementById("cerrar");
+
+      function tiempo() {
+        fondomodal.style.display = "flex";
+      }
+      setTimeout(tiempo, 5000);
+
+      btn.onclick = function () {
+        fondomodal.style.display = "flex";
+      };
+
+      cerrar.onclick = function () {
+        fondomodal.style.display = "none";
+      };
+
+      window.onclick = function (e) {
+        if (e.target == fondomodal) {
+          fondomodal.style.display = "none";
+        }
+      };
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Espera a que el documento esté completamente cargado
+      
+        // Obtén una referencia al botón y al modal
+        var btnContactUs = document.getElementById('btn');
+        var modal = document.getElementById('modal');
+      
+        // Agrega un evento de clic al botón
+        btnContactUs.addEventListener('click', function() {
+          // Muestra el modal
+          mostrarModal();
+        });
+      
+        // Función para mostrar el modal
+        function mostrarModal() {
+          modal.style.display = 'block';
+        }
+      
+        // Función para cerrar el modal
+        function cerrarModal() {
+          modal.style.display = 'none';
+        }
+      
+        // Obtén una referencia al botón de cerrar en el modal y agrega un evento de clic
+        var btnCerrarModal = document.getElementById('cerrar');
+        btnCerrarModal.addEventListener('click', function() {
+          cerrarModal();
+        });
+      
+        // Cierra el modal si el usuario hace clic fuera de él
+        window.addEventListener('click', function(event) {
+          if (event.target === modal) {
+            cerrarModal();
+          }
+        });
+      });
+      
+      
+    </script>
+    <script src="librerias/lightbox2-2.11.4/lightbox2-2.11.4/src/js/lightbox.js"></script>
+  </body>
+</html>
